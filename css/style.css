@@ -516,8 +516,9 @@ a:hover {
 
 .navbar-b .navbar-brand {
   color: #fff;
-  font-size: 1.6rem;
+  font-size: 1.3rem;
   font-weight: 600;
+  float: left;
 }
 
 .navbar-b .navbar-nav .dropdown-item.show .dropdown-menu,
@@ -670,19 +671,26 @@ a:hover {
 }
 .intro .intro-title {
   color: #fff;
+  font-size: 2em;
   font-weight: 600;
   font-family: "Kaushan Script", cursive;
   text-shadow: 2px 2px #000000;	
-  margin: 5em auto;
-  margin-bottom: 2em;
-
+  margin: 0.5em auto;
+  background-size: cover !important;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
 }
 
 .intro .intro-subtitle {
   font-size: 1rem;
   font-weight: 300;
   font-family: cursive;
-  margin: 25px auto;
+  margin: 0.2em auto;
+  background-size: cover !important;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
 }
 
 .intro .text-slider-items {
@@ -1145,9 +1153,9 @@ footer .credits a {
     font-size: 1.2rem;
   }
 
-  .-tile-single .intro-title {
+/*  .-tile-single .intro-title {
     font-size: 3.5rem;
-  }
+  }*/
 }
 
 @media (max-width: 768px) {
