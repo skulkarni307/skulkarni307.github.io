@@ -14,7 +14,8 @@ font-size: 16px;
 }
 body {
   background-color: #f5f5f5;
-  color: #4e4e4e;
+  overflow-x: hidden;
+  font-family:Roboto Slab;
 }
 
 h1,
@@ -86,6 +87,7 @@ a:hover {
 }
 
 .bg-image {
+  background-image: url(img/cover_bg_5.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -606,9 +608,8 @@ a:hover {
 ======================================*/
 .intro .vert-bar {
   float: right;
-  margin-top: 10em;
-  margin-right:-2em;
-  width: 9em;
+  margin-top: 8em;
+  width: 5em;
   background-color: transparent;
   vertical-align: middle;
 }
@@ -658,8 +659,8 @@ a:hover {
   background-position: center center;
   background-repeat: no-repeat;
   position: relative;
-  height: 20vw;
-  width: 20vw;
+  height: 18vw;
+  width: 18vw;
   margin: 5em auto;
   margin-bottom: 2em;
   -webkit-border-radius: 50%;
@@ -669,10 +670,12 @@ a:hover {
 }
 .intro .intro-title {
   color: #fff;
-  font-size: 1rem;
   font-weight: 600;
   font-family: "Kaushan Script", cursive;
   text-shadow: 2px 2px #000000;	
+  margin: 5em auto;
+  margin-bottom: 2em;
+
 }
 
 .intro .intro-subtitle {
@@ -896,54 +899,6 @@ a:hover {
 
 .timeline-info > p + p {
   margin-top: 5px;
-}
-
-@media screen and (max-width: 768px) {
-  .timeline:before {
-    left:30px;
-/*    margin-left: -64px;*/
-  }
-  .timeline .timeline-info {
-    margin-bottom: 20px;
-    margin-right: 5px;
-  }
-  .timeline .timeline-info > div h4 {
-    float: left;
-    margin-bottom: 0;
-  }
-  .timeline > li {
-    margin-bottom: 2em;
-  }
-  .timeline > li > .timeline-panel {
-    width: 85% !important;
-    margin-right: -20px;
-    margin-left: 20px;
-  }
-  .timeline > li > .timeline-badge img{
-    position:absolute;
-    top: 20px;
-    left: 0%;
-    margin-left: -15px !important;
-  }
-  .timeline > li.timeline-unverted {
-    text-align: left;
-  }
-  .timeline > li.timeline-unverted > .timeline-panel {
-  float: right;
-  }
-  .timeline > li.timeline-unverted > .timeline-panel:before {
-  border-left-width: 0;
-  border-right-width: 15px;
-  left: -15px;
-  right: auto;
-  }
-  .timeline > li.timeline-unverted > .timeline-panel:after {
-  border-left-width: 0;
-  border-right-width: 14px;
-  left: -14px;
-  right: auto;
-  }
-
 }
 
 /*======================================
@@ -1183,14 +1138,14 @@ footer .credits a {
   }
 
   .intro .intro-title {
-    font-size: 4.5rem;
+    font-size: 2em;
   }
 
   .intro .intro-subtitle {
-    font-size: 2.5rem;
+    font-size: 1.2rem;
   }
 
-  .intro-single .intro-title {
+  .-tile-single .intro-title {
     font-size: 3.5rem;
   }
 }
@@ -1199,4 +1154,53 @@ footer .credits a {
   .back-to-top {
     bottom: 15px;
   }
+  .intro .intro-title{
+    font-size: 1.5em;
+  }
+  .timeline:before {
+    left:30px;
+/*    margin-left: -64px;*/
+  }
+  .timeline .timeline-info {
+    margin-bottom: 20px;
+    margin-right: 5px;
+    margin-left: 15px;
+  }
+  .timeline .timeline-info > div h4 {
+    float: left;
+    margin-bottom: 0;
+  }
+  .timeline > li {
+    margin-bottom: 2em;
+  }
+  .timeline > li > .timeline-panel {
+    width: 85% !important;
+    margin-right: -20px;
+    margin-left: 20px;
+  }
+  .timeline > li > .timeline-badge img{
+    position:absolute;
+    top: 20px;
+    left: 0%;
+    margin-left: -15px !important;
+  }
+  .timeline > li.timeline-unverted {
+    text-align: left;
+  }
+  .timeline > li.timeline-unverted > .timeline-panel {
+  float: right;
+  }
+  .timeline > li.timeline-unverted > .timeline-panel:before {
+  border-left-width: 0;
+  border-right-width: 15px;
+  left: -15px;
+  right: auto;
+  }
+  .timeline > li.timeline-unverted > .timeline-panel:after {
+  border-left-width: 0;
+  border-right-width: 14px;
+  left: -14px;
+  right: auto;
+  }  
+  .contact-mf
 }
