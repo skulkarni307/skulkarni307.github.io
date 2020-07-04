@@ -573,7 +573,7 @@ a:hover {
 }
 
 .intro .overlay-itro {
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(255, 255, 255, 0.6);
   position: absolute;
   top: 0;
   left: 0px;
@@ -1090,6 +1090,12 @@ footer .credits a {
   }
   .intro .intro-title{
     font-size: 1.5em;
+  }
+  .intro{
+    background-image:url('img/cover_bg_5.jpg') !important
+  }
+  .intro .overlay{
+    background-color:rgba(255,255,255,0.6)
   }
   .timeline:before {
     left:30px;
