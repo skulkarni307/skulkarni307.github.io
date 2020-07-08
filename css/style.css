@@ -70,7 +70,6 @@ a:hover {
   padding: 0;
   height: 100%;
   width: 100%;
-  opacity: .9;
 }
 
 .paralax-mf {
@@ -563,7 +562,6 @@ a:hover {
   height: 110vh;
   position: relative;
   color: #fff;
-  background-image:url('img/cover_bg_5.jpg');
 }
 
 .intro .intro-content {
