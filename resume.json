@@ -1,0 +1,206 @@
+{
+		
+"meta": {
+    "theme":"elegant"
+          },	
+  "basics": {
+    "name": "Samruddhi Kulkarni",
+    "label": "MS ECE Georgia Tech",
+    "picture": "https://skulkarni307.github.io/photo_json.jpg",
+    "summary": "I am a Master's student in Electrical and Computer Engineering at Georgia Tech. I am passionate about developing solutions that ease and improve existing technology.",   
+    "website": "https://skulkarni307.github.io/",
+    "email": "sskulk307@gatech.edu",
+    "location": {
+      "city": "Atlanta",
+      "countryCode": "GA"
+    },
+    "willing to relocate":true,
+    "profiles": [
+      {
+        "username": "samruddhi-s-kulkarni",
+        "url": "https://www.linkedin.com/in/samruddhi-s-kulkarni/",
+        "network": "linkedin"
+      },
+      {
+        "url": "https://github.com/skulkarni307",
+        "username": "skulkarni307",
+        "network": "github"
+      }
+    ]
+  },
+"education": [{
+		"institution": "Georgia Institute Of Technology",
+		"area": "Electrical and Computer Engineering",
+		"studyType": "Master of Science",
+		"startDate": "2018-08-02",
+		"endDate": "2020-05-01",
+		"gpa": "3.3",
+		"website": "https://www.ece.gatech.edu/",
+		"courses": [
+      			"ECE6250 - Advanced Digital Signal Processing",
+      			"ECE6258 - Digital Image Processing",
+      			"ECE6254 - Statistical Machine Learning",
+      			"ECE6255 - Digital Speech Processing",
+      			"ECE8833 - Biomedical Sensing and Systems",
+      			"BMED6739 - Medical Robotics",
+			"CS8903 - Research Course for Academic Credit", 
+			"VIP6603 - Vertically Integrated Project"
+			]
+		},{
+		"institution": "College of Engineering Pune",
+		"area": "Instrumentation and Control Engineering",
+		"studyType": "Bachelor of Technology",
+		"startDate": "2014-08-20",
+		"endDate": "2018-05-15",
+		"gpa": "8.02",
+		"website": "http://www.coep.org.in/",
+		"courses": [
+			"CT11001-Fundamentals of Computer Programminng",
+			"IE12001-Transducers I",
+			"IE12009-Automatic Control Systems",
+			"IE13002-Microcontroller Techniques and its Applications",
+			"IE(DE)13001-Signals and System",
+			"IE-16016 Digital Signal Processing",
+			"CT(ILE)17004-Intermediate Programming Concepts and Tools",
+			"IE(DE)14002-Medical Instrumentation",
+			"AS(ILE)14003- Nano Bio Technology and Bio Engineering"			   
+			]
+		}
+    	],
+"publications": [{
+		"name": "Study of Intelligent Evacuation Systems of High-Rise Buildings in India-a review",
+		"publisher": "IEEE 2016 International Conference on Computing, Analytics and Security Trends (CAST)",
+		"releaseDate": "2017-05-01",
+		"website": "https://ieeexplore.ieee.org/document/7914964",
+		"summary": "This paper presents literature review of intelligent evacuation management systems in high-rise buildings all over the world so as to validate it to improve the evacuation systems in existing high-rise buildings in India. It studies means of egress, evacuation strategies & models along with crowd monitoring and prediction strategies employed in high-rise buildings. Based on this review, the author presents a decision model using information available in the form building and egress specifications as well as information variables like occupant density (RFID technology), spread and location of fire (Smoke Sensor Technology), etc. to guide the rescue team for fast and safe evacuation of building occupants"
+		}
+	],
+"skills": [{
+		"name": "Programing",
+		"level": "Intermediate",
+		"keywords": [
+			"Python",
+			"C++",
+			"MATLAB",
+			"Linux Command Line"
+			]
+	},{
+		"name": "Tools / Technologies",
+		"level": "Intermediate",
+		"keywords": [
+	   		"TensorFlow",
+	   		"scikit-learn",
+	   		"scikit-image",
+	   		"Arduino",
+	   		"Octave",
+	  		"Keil uVision",
+	   		"Proteus",
+			"Git",
+	   		"Docker"
+			]
+	},{
+		"name": "Web Development",
+		"level": "Intermediate",
+		"keywords": [
+			"HTML",
+			"CSS"
+			]
+	},{
+		"name": "Databases",
+		"level": "Intermediate",
+		"keywords":["MySQL"]
+	}
+  ],
+
+"work": [{
+	"company": "The Clifford Lab, Emory University & Georgia Institute of Technology (Advisor: Gari Clifford, DPhil)",
+	"position": "Graduate Research Assistant",
+	"website": "http://gdclifford.info/",
+	"startDate": "2020-01-02",
+	"summary": "Technology: Image Processing, Deep Learning, Python, TensorFlow",
+	"highlights": [] 
+	},
+	{
+	"company": "Ubiquitous Computing Research Group, Georgia Institute of Technology (Advisor: Prof. Gregory Abowd)",
+	"position": "Graduate Research Assistant",
+	"website": "http://ubicomp.cc.gatech.edu/",
+	"startDate": "2019-06-19",
+	"endDate": "2019-12-19",
+	"summary": "Technology: Python, scikit-learn,pandas, eating-gesture-recognition, android-feature-computation, Android Java",
+	"highlights": [
+		"Worked on a study on eating and well-being in college students under a multi-institution project CampusLife- An effort to improve student well-being through digital data",
+		"Build algorithm for android-based feature computation of raw sensor data previously executed in Python in a Desktop environment",
+		"Developed pipeline for visualization (Plotly), cleaning & augmentation of data collected through self-report surveys and eating gesture raw data from off-the-shelf wrist watch and mobile application data",
+		"Build algorithm to test correlation between meal patterns,meal company/environment, mental well-being and mobile data",
+		"Recently submitted research paper on this work to ACM Interactive, Mobile Wearable and Ubiquitous Technologies (IMWUT) 2020" 
+			]
+	},
+  	{
+	"company": "Department of Biomedical Informatics, Emory University (Advisor: Gari Clifford, DPhil)",
+	"position": "Image Processing and ML Intern",
+	"website": "https://med.emory.edu/departments/biomedical-informatics/",
+	"startDate": "2019-05-02",
+	"endDate": "2019-08-02",
+	"summary": "Technology: Image Processing, OCR, Convolutional Neural Networks, Python, TensorFlow, Augmentor",
+	"highlights": [
+		"Worked on digitization of readings of medical device displays using images taken from a cellphone camera" ,
+      		"Build a deep learning model to recognize & monitor blood pressure(BP) readings of preeclamptic populations of rural Guatemala using cellphone camera images of digital BP meter displays collected in a study",
+      		"Generated an artificial dataset using a blank BP LCD image and a realistic font, augmented by realistic noises similar in visual appearance to test data to improve estimation accuracy.",
+      		"Mean absolute error after estimation on artificial BP images: Systolic BP(0.1 mmHg), Diastolic BP(0.2 mmHg)"
+		]
+	},
+	{
+	"company": "TQIntelligence",
+	"position": "Summer Intern",
+	"website": "https://tqintelligence.com/",
+	"startDate": "2019-05-13",
+	"endDate": "2019-08-02",
+	"summary": "Technology: Python, mySQL, triage, Docker, Linux, HTML, CSS",
+	"highlights": [ 
+		"Worked on a triage food inspection project using Linux, Docker & mySQL as a proof-of-concept of early-warning systems using a machine learning model",
+      		"Performed preprocessing on self-reported well-being data from patient, therapist and caregiver as well as patient audio data",
+      		"Assisted with company website and interactive quizzes development"
+    			]
+	}	  
+  ],
+"languages": [{
+		"language": "English",
+		"fluency": "Native speaker"
+	},{
+		"language": "Marathi",
+		"fluency": "Native speaker"
+	},{
+		"language": "Hindi",
+		"fluency": "Native speaker"		
+	},{
+		"language": "German",
+		"fluency": "Beginner"		
+	}],
+"interests": [{
+		"name": "Technology",
+		"keywords": [
+			"Healthcare",
+			"Computer Vision",
+			"Machine learning & AI"
+		]
+	},
+	      {
+		"name": "Dance",
+		"keywords": [
+			"Indian Classical Dance: Kathak",
+			"Ballroom Dancing"
+		]
+	}],
+
+"awards": [{
+		"title": "Merit Scholarship for high scores in Maharashtra Secondary School Certificate(SSC) Exam",
+		"date": "2010-08-01"
+	},{
+		"title": "Merit Scholarship for high scores in Maharashtra Higher Secondary School Certificate(HSC) Exam",
+		"date": "2012-08-01"
+	},{
+		"title": "Cultural Talent Search Scholarship for Kathak Dance",
+		"date": "2010-08-01",
+		"awarder": "Centre for Cultural Resources and Training, Ministry of Culture, India"    
+	}]
+}
